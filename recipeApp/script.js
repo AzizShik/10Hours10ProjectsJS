@@ -209,6 +209,7 @@ window.addEventListener('load', () => {
 
   headerFavBtn.addEventListener('click', () => {
     mainInner.innerHTML = '';
+    mainTitleEl.textContent = `Your Favority Meals`;
     favoriveMealsId.forEach(async function (e) {
       const meal = await getMealById(e);
       createMealItem(meal.meals[0]);
