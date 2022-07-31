@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <title>Recipe App</title>
+</head>
+
+<body>
+
+  <div class="wrapper">
+
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <a class="header__logo" href="index.html">
+            <span class="material-symbols-outlined material-icons">
+              menu_book
+            </span>
+            <h1>RecipeApp</h1>
+          </a>
+          <div class="header__info">
+            <form class="header__search">
+              <input class="header__search-input" type="text" placeholder="Search your meal...">
+              <button type="submit" class="header__search-btn">
+                <span class="material-symbols-outlined material-icons">
+                  search
+                </span>
+              </button>
+            </form>
+            <button class="btn header__fav">
+              <span class="header__fav-counter">0</span>
+              <span class="material-symbols-outlined material-icons">
+                favorite
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <aside class="menu">
+        <h2 class="menu__title menu-title">Сategories</h2>
+        <div class="menu__inner"></div>
+      </aside>
+      <div class="container">
+        <h2 class="main__tilte">Random Recipies</h2>
+        <div class="main__inner"></div>
+      </div>
+      <aside class="areas">
+        <h2 class="areas__title menu-title">Areas</h2>
+        <div class="areas__inner"></div>
+      </aside>
+    </main>
+  </div>
+
+  <div class="popup">
+    <div class="popup__body">
+      <div class="popup__content">
+        <button class="popup__close">&times;</button>
+        <div class="img-block">
+          <img class="popup__img"
+            src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+            alt="MealThumb">
+        </div>
+        <div class="popup__info">
+          <h2 class="popup__title">Popop Title</h2>
+          <h2 class="popup__category">Popop Category</h2>
+          <h2 class="popup__area">Popop Area</h2>
+          <p class="popup__descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis aut
+            beatae
+            nam pariatur atque aliquid quo odio odit eius totam necessitatibus praesentium animi officia itaque
+            exercitationem consequuntur est molestias maxime excepturi eos facilis quaerat. Qui sed eos sequi soluta
+            incidunt, maxime fuga vitae enim quos doloremque delectus voluptatem impedit reiciendis voluptate, magni non
+            repudiandae mollitia eum fugiat ea nam. Beatae minus placeat harum officia blanditiis nostrum id! Eos
+            explicabo esse totam cupiditate. Soluta beatae, magni autem consequatur odio modi harum, reiciendis
+            obcaecati impedit esse iste facere laborum magnam provident consequuntur nisi quisquam natus incidunt
+            necessitatibus rerum cumque placeat veritatis!</p>
+          <ul class="popup__list">
+            <li class="popup__item">Chiken / 200g</li>
+            <li class="popup__item">Broccoli / 50g</li>
+            <li class="popup__item">Eggs / 2</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
