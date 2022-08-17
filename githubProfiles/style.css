@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  background: transparent;
+}
+
+img {
+  max-height: 100%;
+  width: 100%;
+  vertical-align: top;
+  object-fit: cover;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Lato", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  overflow-x: hidden;
+  color: #333;
+  background: #630688d3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+
+.fab {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-size: 64px;
+}
+
+.input {
+  padding: 12px 24px;
+  font-size: 20px;
+  border-radius: 10px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+  border: none;
+  background: #b700ff;
+  color: #fff;
+}
+
+.input::placeholder {
+  color: rgba(255, 255, 255, 0.63);
+}
+
+.user {
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  background: #222;
+  border-radius: 10px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  min-width: 700px;
+  color: #fff;
+}
+
+.user__img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0px 10px rgba(255, 255, 255, 0.63);
+}
+.user__info {
+  flex-grow: 1;
+  margin-left: 50px;
+}
+.user__info-name {
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+.user__info-bio {
+  font-size: 20px;
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+.user__info-social {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.user__info-projects {
+  max-width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.user__info-project {
+  margin: 5px;
+  display: inline-block;
+  background: #fff;
+  margin-top: 20px;
+  color: #333;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.not-found {
+  font-size: 30px;
+  justify-content: center;
+}
