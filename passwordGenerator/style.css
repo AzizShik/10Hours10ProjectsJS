@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  background: transparent;
+}
+
+img {
+  max-height: 100%;
+  width: 100%;
+  vertical-align: top;
+  object-fit: cover;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Lato", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  overflow-x: hidden;
+  color: #fff;
+  background: #000000ad;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 350px;
+}
+
+.btn {
+  font-size: 32px;
+  background: rgba(157, 37, 255, 0.664);
+  color: #fff;
+  padding: 10px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all .4s ease;
+}
+
+.btn-large {
+  font-size: 18px;
+  text-transform: uppercase;
+  box-shadow: 0 1px 10px rgb(0, 0, 0);
+}
+
+.title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.result-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  background: rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 10px rgba(26, 26, 26, 0.63);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.result {
+  border: 4px solid rgba(157, 37, 255, 0.664);
+  flex-grow: 1;
+  padding: 10px 14px;
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+  color: #222;
+}
+
+.settings {
+  margin-top: 20px;
+  font-size: 21px;
+  background: rgb(152, 0, 172);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 1px 10px rgb(34, 34, 34);
+}
+
+.setting {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.setting input {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.btn-large {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.settings .setting__input {
+  width: 55px;
+  font-size: 21px;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
