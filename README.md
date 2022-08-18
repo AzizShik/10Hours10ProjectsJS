@@ -6,3 +6,4 @@
 4. Notes App https://azizshik.github.io/10Hours10ProjectsJS/notesApp/index.html <br>
 5. GitHub Profiles https://azizshik.github.io/10Hours10ProjectsJS/githubProfiles/index.html <br>
 6. Drawing App https://azizshik.github.io/10Hours10ProjectsJS/drawingApp/index.html <br>
+7. Password Generator https://azizshik.github.io/10Hours10ProjectsJS/passwordGenerator/index.html <br>
