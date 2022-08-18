@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+		integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<title>Drawing App</title>
+</head>
+
+<body>
+
+	<div class="container">
+		<canvas class="canvas" width="800" height="800"></canvas>
+		<div class="toolbox">
+			<div class="size-block">
+				<div class="btn decrease">-</div>
+				<span class="size">20</span>
+				<div class="btn increase">+</div>
+				<label for="input-color" class="label">
+					<input id="input-color" class="input" type="color">
+					Choise color
+				</label>
+			</div>
+			<button class="btn" id="clear">X</button>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+
+</html>

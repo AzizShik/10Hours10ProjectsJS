@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+img {
+  max-height: 100%;
+  width: 100%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Lato", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  overflow-x: hidden;
+  color: #333;
+  background: #15ff0048;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.canvas {
+  margin-top: 10px;
+  background: #00ffac;
+  width: 800px;
+  height: 800px;
+  vertical-align: top;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+.toolbox {
+  display: flex;
+  justify-content: space-between;
+  background: rgb(24 71 58);
+  color: #fff;
+  padding: 15px;
+  padding: 12px 24px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.size-block {
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  padding: 12px 24px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
+  background: #3999a9e3;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  transition: all 0.25s ease;
+}
+
+.size {
+  display: inline-block;
+  font-size: 27px;
+}
+
+.input {
+  margin-bottom: 10px;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 21px;
+}
+
+@media (hover: hover) {
+  .btn:hover {
+    box-shadow: 0 1px 20px rgba(0, 0, 0, 0.5);
+    background: #00a2bee3;
+  }
+  .btn:active {
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+    background: rgba(10, 145, 93, 0.74);
+  }
+}
