@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  background: #f1f2f3;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.material-icons,
+.material-symbols-outlined {
+  font-family: 'Material Icons';
+  pointer-events: none;
+}
+
+.container {
+  max-width: 1230px;
+  min-height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin-bottom: 15px;
+}
+
+.form {
+  margin-bottom: 30px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.form__input {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  outline: #333;
+  border: 1px solid grey;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transition: all 0.3s ease;
+}
+
+.form__input:focus {
+  outline: 1px solid #333;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.form__btn {
+  align-self: stretch;
+  background: #111;
+}
+
+.list {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  max-width: 480px;
+  width: 100%;
+  padding: 50px;
+  border-radius: 4px;
+}
+
+.list__item {
+  border-radius: 10px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  border: 1px solid grey;
+  padding: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  transition: all 0.3s ease;
+}
+
+.list__item-controls {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  font-size: 16px;
+  border: 1px solid grey;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  padding: 5px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #fff;
+}
+
+.btn-done {
+  background: rgb(0, 187, 0);
+}
+
+.btn-close {
+  background: rgb(194, 0, 0);
+}
+
+.btn:active {
+  transform: translate(2px, 2px) scale(0.95);
+}
+
+@media (hover: hover) {
+  .btn:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  }
+
+  .list__item:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  }
+
+  .form__input:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  }
+}
+
+@media (max-width: 480px) {
+  .list {
+    padding: 20px 10px;
+  }
+
+  .list__item {
+    font-size: 20px;
+  }
+
+  .list__item-btn {
+    font-size: 14px;
+  }
+}
