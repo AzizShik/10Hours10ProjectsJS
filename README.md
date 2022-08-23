@@ -9,4 +9,4 @@
 7. Password Generator https://azizshik.github.io/10Hours10ProjectsJS/passwordGenerator/index.html <br>
 8. Todo App https://azizshik.github.io/10Hours10ProjectsJS/todoApp/index.html <br>
 9. Movie App https://azizshik.github.io/10Hours10ProjectsJS/movieApp/index.html <br>
-10. Movie App https://azizshik.github.io/10Hours10ProjectsJS/weatherApp/index.html <br>
+10. Weather App https://azizshik.github.io/10Hours10ProjectsJS/weatherApp/index.html <br>
